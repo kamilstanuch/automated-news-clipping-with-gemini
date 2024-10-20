@@ -19,6 +19,12 @@ This Google Apps Script automatically extracts news articles from your Gmail new
 4. **News Validation:**  Extracted news items are validated to ensure they have required fields like titles, descriptions, and links.
 5. **Data Storage:** The script saves the extracted news articles and relevant email metadata (sender, date, etc.) to designated Google Sheets. 
 
+## Example Output
+
+Here's how the extracted data looks in Google Sheets:
+
+![Spreadsheet with extracted emails and news](CleanShot%202024-10-20%20at%2019.09.24.gif)
+
 ## How to Use
 
 1. **Copy the Code:** Copy the entire code from this repository.
@@ -38,6 +44,15 @@ This Google Apps Script automatically extracts news articles from your Gmail new
    - Save the script.
    - Run the `processNewEmails()` function. 
    - You may need to authorize the script to access your Gmail and Google Sheets.
+
+## New to Google Apps Script?
+
+Here's a quick guide to getting started:
+
+1. **Create a Google Sheet:** If you don't have one already.
+2. **Access Script Editor:**  In your Sheet, go to "Tools" > "Script editor". 
+3. **Paste Code:**  Paste the code from this repository into the script editor.
+4. **Save & Run:** Save your script. You can now run the functions (like `processNewEmails()`) from the editor.
 
 ## Important Notes
 
